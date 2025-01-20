@@ -15,7 +15,7 @@ public class ItemController {
     @Autowired
     ItemRepository itemRepo;
 
-    @GetMapping(value = "/list")
+    @GetMapping(value = "/")
     public List<Item> getItemLists() {
         return itemRepo.findItemSortById();
     }

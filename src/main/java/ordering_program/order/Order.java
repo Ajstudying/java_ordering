@@ -33,7 +33,6 @@ public class Order {
     private long price;
 
     //d-3 상품 등이 마감됐을 때 사용할 변수
-    @Column(nullable = false)
     private boolean orderAvailableData;
 
     //발주 생성 날짜
